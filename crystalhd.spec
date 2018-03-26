@@ -1,7 +1,7 @@
 Name:           crystalhd
 Summary:        Kernel module (kmod) for crystalhd
 Version:        20170515
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv2
 URL:            https://github.com/philipl/crystalhd.git
 #Source0:        crystalhd-%{version}.tar.xz
@@ -11,6 +11,7 @@ Provides:       %{name}-kmod-common = %{version}
 Requires:       %{name}-kmod >= %{version}
 Requires:       %{name}-firmware >= 3.10.0
 Requires:       libcrystalhd >= 3.10.0
+Requires:       unifdef
 
 
 %description
@@ -31,6 +32,9 @@ CrystalHD common files.
 #doc drivers/staging/crystalhd/TODO
 
 %changelog
+* Mon Mar 26 2018 Nicolas Chauvet <kwizart@gmail.com> - 20170515-2
+- Add missing unifdef
+
 * Wed May 17 2017 Nicolas Chauvet <kwizart@gmail.com> - 20170515-1
 - Update to 20170515
 
