@@ -1,6 +1,6 @@
 Name:           crystalhd
 Summary:        Kernel module (kmod) for crystalhd
-Version:        20200825
+Version:        20220825
 Release:        1%{?dist}
 License:        GPLv2
 URL:            https://github.com/kwizart/crystalhd.git
@@ -31,8 +31,8 @@ CrystalHD common files.
 #doc drivers/staging/crystalhd/TODO
 
 %changelog
-* Thu Aug 25 2022 Nicolas Chauvet <kwizart@gmail.com> - 20200825-1
-- Update to 20200825
+* Thu Aug 25 2022 Nicolas Chauvet <kwizart@gmail.com> - 20220825-1
+- Update to 20220825
 
 * Sun Aug 07 2022 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 20170515-11
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_37_Mass_Rebuild and ffmpeg
